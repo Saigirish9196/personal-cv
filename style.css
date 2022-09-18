@@ -1,0 +1,139 @@
+#title{
+  background-color: dimgray;
+  text-align: center;
+  padding: 5% 10% 0;
+
+}
+h1{
+  color: paleturquoise;
+  font-family: "Sacramento",sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+}
+.h2{
+  color: paleturquoise;
+}
+h2{
+  color: #11999E;
+  font-size: 2rem;
+}
+.cloud_img1{
+  position: relative;
+  left: 25%;
+}
+.cloud_img2{
+  position: relative;
+  left: 7%;
+  bottom: 120px;
+
+}
+.mountain{
+  position: relative;
+  right: 25px;
+}
+@media (max-width: 951px) {
+  .cloud_img1{
+    position: relative;
+    left: 45%;
+  }
+  .cloud_img2{
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+  }
+
+}
+/* --------------------profile---------------------------------- */
+
+#profile{
+  padding: 5% 10%;
+  text-align: center;
+  background-color: #EAF6F6;
+  line-height: 2;
+}
+
+.profile_pic{
+  background-color: #EAF6F6;
+  border-radius: 100%;
+  border: 2px solid #11999E;
+  margin-bottom: 2%;
+}
+
+h3{
+  color: #11999E;
+  font-size: 1.5em;
+}
+
+/* --------------------------------skills------------------------------------------- */
+#skills_section{
+  text-align: center;
+  padding: 5% 10%;
+  background-color:#EAF6F6;
+}
+
+.skill_pic {
+    background-color: #EAF6F6;
+    width: 50%;
+    position: relative;
+    left: 20%;
+}
+.skill-row{
+  padding: 5% 10%;
+
+}
+
+.chess{
+  width: 80%;
+}
+hr {
+  width: 5%;
+  background-color: #EAF6F6;
+  border-style: none;
+  border-top: 7px dotted gray;
+  margin: 5px auto;
+}
+/* --------------------------------contactme---------------------------------- */
+.contact-me{
+  text-align: center;
+  background-color: #EAF6F6;
+
+  padding: 5% 10%;
+}
+
+.get{
+  padding-bottom: inherit;
+  padding-top: inherit;
+}
+
+/* --------------------------------footer----------------------------- */
+footer{
+  text-align: center;
+  padding: 5% 10%;
+  background-color: dimgrey;
+}
+
+.fa-brands{
+  font-size: 2rem;
+  color: gray;
+  width: 40px;
+}
+
+
+.fa-brands:hover{
+  color: #fff;
+}
+.footer{
+  padding-top: inherit;
+}
+.btn{
+  background-color: #11999e;
+}
+
+
+@media (max-width: 951px){
+  .skill_pic {
+    background-color: #EAF6F6;
+    width: 40%;
+    position: inherit;
+  }
+}
