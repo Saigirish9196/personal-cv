@@ -20,11 +20,13 @@ h2{
 .cloud_img1{
   position: relative;
   left: 25%;
+  
 }
 .cloud_img2{
   position: relative;
   left: 7%;
   bottom: 120px;
+  
 
 }
 .mountain{
@@ -35,13 +37,17 @@ h2{
   .cloud_img1{
     position: relative;
     left: 45%;
+    width:75px;
   }
   .cloud_img2{
     position: absolute;
     right: 50%;
     bottom: 50%;
+    width:75px;
   }
-
+  .mountain{
+    width:70%;
+  }
 }
 /* --------------------profile---------------------------------- */
 
@@ -130,10 +136,14 @@ footer{
 }
 
 
-@media (max-width: 951px){
+@media (max-width: 651px){
   .skill_pic {
     background-color: #EAF6F6;
     width: 40%;
     position: inherit;
+  }
+  .table{
+    position: relative;
+    right: 30px;
   }
 }
