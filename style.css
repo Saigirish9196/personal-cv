@@ -42,11 +42,11 @@ h2{
   .cloud_img2{
     position: absolute;
     right: 50%;
-    bottom: 85%;
+    bottom: 75%;
     width: 90px;
   }
   .mountain{
-    width: 85%;
+    width: 93%;
   }
 }
 /* --------------------profile---------------------------------- */
@@ -143,8 +143,6 @@ footer{
     position: inherit;
   }
   table{
-    width: 80%  
-    position: relative;
-    right: 30px;
+    table-layout: fixed;
   }
 }
