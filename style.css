@@ -142,7 +142,8 @@ footer{
     width: 40%;
     position: inherit;
   }
-  .table{
+  table{
+    width: 80%  
     position: relative;
     right: 30px;
   }
