@@ -37,16 +37,16 @@ h2{
   .cloud_img1{
     position: relative;
     left: 45%;
-    width:75px;
+    width: 90px;
   }
   .cloud_img2{
     position: absolute;
     right: 50%;
-    bottom: 50%;
-    width:75px;
+    bottom: 70%;
+    width: 90px;
   }
   .mountain{
-    width:70%;
+    width: 85%;
   }
 }
 /* --------------------profile---------------------------------- */
